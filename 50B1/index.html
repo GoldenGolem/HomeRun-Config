@@ -1,0 +1,849 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HomeRun - Home Technology Configurator - Plan 50B1</title>
+        <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/form.css">
+    </head>
+    <body>
+      <div id = "content">
+
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <h1>Choose Home Model:</h1>
+    <br><br>
+     <a href="../40C6/index.html">40C6</a>
+     <a href="../50A1/index.html">50A1</a>
+     <a href="../50A2/index.html">50A2</a>
+     <a href="../50A3/index.html">50A3</a>
+     <a href="../50A4/index.html">50A4</a>
+     <a href="../50B1/index.html">50B1</a>
+     <a href="../50B2/index.html">50B2</a>
+  </div>
+</div>
+
+        <div id="header">
+            <div id = "logo_div">
+                <a href="https://www.hrenow.com" target="_blank"><img src = "assets/image/logo.png" class="pull-left"></a>
+                <p class="pull-right">For information or assistance, please contact HomeRun at 844.547.3669<br> 
+                        or send an email to <a href="mailto:contactus@hrenow.com">contactus@hrenow.com</a></p>               
+            </div>
+            <br><br>
+            <div>
+                <div class="pull-left" id="title_div">
+                <span>Home Technology Configuration:</span>
+                
+                <span onclick="openNav()">Plan 50B1 </span>
+
+                <span onclick="openNav()" class="glyphicon glyphicon-chevron-down"></span> 
+               
+
+                </div>
+                <div class="pull-right" id="button_div">
+                    <a href="https://www.hrenow.com/colorado-springs-schedule" target="_blank"><button class="btn btn-success">Schedule</button></a>
+                    
+                    <button class="btn btn-success" id="savepdf_button" > Save PDF </a></button>
+                </div>
+            </div>
+        </div>
+        <div id="main">
+
+          <ul class="nav nav-tabs " role="tablist">
+            <li class="nav-item active">
+              <a class="nav-link" href="#customer_details" role="tab" data-toggle="tab">home information</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#configure" role="tab" data-toggle="tab">configure</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#legend" role="tab" data-toggle="tab">legend</a>
+            </li>
+          </ul>
+          
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade in active" id="customer_details">
+                <div id = "customer_detail_table_div">
+                    <div>
+                        <p class="tab_custom_big_title">Buyer Details <span style="font-size:12px;">(ALL FIELDS REQUIRED)</span></p>
+
+                        <p class="tab_custom_big_title2">Buyer 1</p>
+                        <form role="form">
+                            <div class="form-group float-label-control">
+                                <label for="">Buyer Name:</label>
+                                <input type="email" class="form-control" placeholder="Name" id="buyer_name1">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Phone:</label>
+                                <input type="email" class="form-control" placeholder="Phone" id="phone_number1">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Email:</label>
+                                <input type="email" class="form-control" placeholder="Email" id="email1">
+                            </div>
+                        </form>
+<br><br>
+                        <p class="tab_custom_big_title2">Buyer 2</p>
+                        <form role="form">
+                            <div class="form-group float-label-control">
+                                <label for="">Buyer Name:</label>
+                                <input type="email" class="form-control" placeholder="Name" id="buyer_name2">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Phone:</label>
+                                <input type="email" class="form-control" placeholder="Phone" id="phone_number2">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Email:</label>
+                                <input type="email" class="form-control" placeholder="Email" id="email2">
+                            </div>
+                        </form>
+                    </div>
+                    <div id="tab_custom_div">
+                        <p class="tab_custom_big_title">New Home Details <span style="font-size:12px;">(ALL FIELDS REQUIRED)</span></p>
+                        
+
+                        <form role="form">
+                            <div class="form-group float-label-control">
+                                <label for="">Home Builder:</label>
+                                <input type="email" id="home_builder" class="form-control" placeholder="Home Builder" value = "William Lyon Homes">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Homebuilder Rep:</label>
+                                <input type="email" class="form-control" placeholder="Homebuilder Rep" id="homebuilder_rep">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Homebuilder Rep Email:</label>
+                                <input type="email" class="form-control" placeholder="Homebuilder Rep Email" id="homebuilder_rep_email">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Community:</label>
+                                <input type="email" class="form-control" placeholder="Community" value = "Rex Ranch" id="community">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Lot Block:</label>
+                                <input type="email" class="form-control" placeholder="Lot Block" id="lotblock">
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Property Address</label>
+                                <input type="email" class="form-control" placeholder="Property Address" id="property_address">
+                            </div>
+                            <div class="small-label-form">
+                                <div class="form-group float-label-control">
+                                    <label for="">City:</label>
+                                    <input type="email" class="form-control" placeholder="City" id="city_input">
+                                </div>
+                                <div class="form-group float-label-control">
+                                    <label for="">State:</label>
+                                    <input type="email" class="form-control" placeholder="State" id="state_input">
+                                </div>
+                                <div class="form-group float-label-control">
+                                    <label for="">Zip:</label>
+                                    <input type="email" class="form-control" placeholder="Zip" id="zip_input">
+                                </div>
+                            </div>
+                            <div class="form-group float-label-control">
+                                <label for="">Configuration Date</label>
+                                <input type="email" class="form-control" placeholder="MM/DD/YYYY" id="configuration_date">
+                            </div>
+                           
+
+                            <span id="text_area_label">Additional Notes</span><br>
+
+                            <textarea id="text-area" class="text-center" placeholder="Enter Remarks.  Please do not include any inquiries or questions.
+If there are questions, please contact a HomeRun representative"></textarea>
+                        </form>
+                    </div>
+                </div>
+
+                <div id = "customer_detail_description_div">
+                    <p id="description__big_title">SIMPLY DONE RIGHT</p>
+                    <p id="description_small_title">Now is the best time to help your homebuyers<br>
+                            have the technology-enabled life of their<br>
+                            dreams in your homes.</p>
+                    
+                    <p id="description_description">HomeRun Electronics provides a complete line of home technology solutions and services for new homes from state-of-the-art home theater systems and data networking, to motorized designer window treatments and the most advanced Smart Home systems.  <br><br>
+
+                            Before move-in, HomeRun experts can install and activate TVs, home theater systems, networks, and more all before you open the door to your beautiful new home.  And our Continuum Care services will ensure that your home technology is at peak performance.</p>
+                    <p id = "description_another_title">Let&#39;s get started!</p>
+                    <p id = "description_another_description">Click on the <a>Schedule</a> button to access our easy, online scheduling tool and book a session with a HomeRun Designer. 
+                            Or call us at <a>844.547.3669.</a> </p>
+                </div>
+            </div>
+            
+
+            <div role="tabpanel" class="tab-pane fade" id="configure">
+              <div class="pull-left" id="configure_first_div">
+                <p class="configure_make_border">
+                  <span class="configure_main_title pull-left">Options</span>
+                  <span class="configure_check_box pull-right" id="clear_options"><span style ="font-size:12px; margin-right:10px;">CLEAR OPTIONS</span><label class="square">X</label></span>
+                </p>
+                <p class="configure_make_light_border">
+                    <span class="configure_title pull-left std">Standard</span>
+                    <span class="configure_check_box pull-right"><label class="circle active"></label></span>
+                </p>
+
+                <p class="configure_make_light_border">
+                    <span class="configure_title pull-left">Structural</span>
+                    <span class="configure_check_box pull-right expand_buttons">-</span>
+                </p>
+                <div class="expand_active" id="structural_options">
+                  <div class="configure_make_options_border check-box-button" id="fireplace">
+                      <span class="configure_sub_title pull-left "><label>FP</label><br><label>Fireplace</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border radio-box-button" id="study">
+                      <span class="configure_sub_title pull-left"><label>STU</label><br><label>Study</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                </div>
+                <p class="configure_make_light_border">
+                    <span class="configure_title pull-left">Connectivity</span>
+                    <span class="configure_check_box pull-right expand_buttons">+</span>
+                </p>
+                <div class="expand_inactive" id="connectivity_options">
+                  <div class="configure_make_options_border check-box-button" id="option1">
+                      <span class="configure_sub_title pull-left"><label>90-PPCWH</label><br><label>Whole House Package</label><br>Price: $<label>1000.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle active"></label></span>
+                  </div>
+                  
+                  <div class="configure_make_options_border check-box-button" id="option2">
+                      <span class="configure_sub_title pull-left"><label>90-PDPO</label><br><label>Drop Pipe in Owners Suite</label><br>Price: $<label>100.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border check-box-button" id="option3">
+                      <span class="configure_sub_title pull-left"><label>90-SAT</label><br><label>SAT TV Prewire RG-6</label><br>Price: $<label>150.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                </div>
+                <p class="configure_make_light_border">
+                    <span class="configure_title pull-left">Lifestyle</span>
+                    <span class="configure_check_box pull-right expand_buttons">+</span>
+                </p>
+                <div class="expand_inactive" id="lifestyle_options">
+                  <div class="configure_make_options_border radio-box-button" id="option4">
+                      <span class="configure_sub_title pull-left"><label>90-DP1</label><br><label>Distributed Audio Prewire - Great Room</label><br>Price: $<label>400.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle active"></label></span>
+                  </div>
+                  <div class="configure_make_options_border radio-box-button" id="option5">
+                      <span class="configure_sub_title pull-left"><label>90-DP2</label><br><label>Distributed Audio Package - Great Room</label><br>Price: $<label>1400.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border radio-box-button" id="option6">
+                      <span class="configure_sub_title pull-left"><label>90-DP1U</label><br><label>Distributed Audio Prewire - Owners Suite</label><br>Price: $<label>400.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border radio-box-button" id="option7">
+                      <span class="configure_sub_title pull-left"><label>90-DP2U</label><br><label>Distributed Audio Package - Owners Suite</label><br>Price: $<label>1400.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border check-box-button" id="option8">
+                      <span class="configure_sub_title pull-left"><label>90-HASP</label><br><label>Home Theater Prewire</label><br>Price: $<label>400.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border check-box-button" id="option9">
+                        <span class="configure_sub_title pull-left"><label>90-HS</label><br><label>5.1 Home Theater System</label><br>Price: $<label>2800.00</label> </span>
+                        <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                    </div>
+                </div>
+                <p class="configure_make_light_border">
+                    <span class="configure_title pull-left">Security</span>
+                    <span class="configure_check_box pull-right expand_buttons">+</span>
+                </p>
+                <div class="expand_inactive" id="security_options">
+                  <div class="configure_make_options_border radio-box-button" id="option10">
+                      <span class="configure_sub_title pull-left"><label>90-APW</label><br><label>Security System Prewire</label><br>Price: $<label>650.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle active"></label></span>
+                  </div>
+                  <div class="configure_make_options_border radio-box-button" id="option11">
+                      <span class="configure_sub_title pull-left"><label>90-ATR</label><br><label>Security System Package</label><br>Price: $<label>1600.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border check-box-button" id="option12">
+                      <span class="configure_sub_title pull-left"><label>90-ATK</label><br><label>Additional Keypad Foyer</label><br>Price: $<label>200.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                  <div class="configure_make_options_border check-box-button" id="option13">
+                      <span class="configure_sub_title pull-left"><label>90-ATKO</label><br><label>Additional Keypad Owners Suite</label><br>Price: $<label>200.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                </div>
+                <p class="configure_make_light_border">
+                    <span class="configure_title pull-left">Central Vacuum</span>
+                    <span class="configure_check_box pull-right expand_buttons">+</span>
+                </p>
+                <div class="expand_inactive" id="central_vacuum_options">
+                  <div class="configure_make_options_border check-box-button" id="option14">
+                      <span class="configure_sub_title pull-left"><label>90-VDS</label><br><label>Central Vacuum System</label><br>Price: $<label>2950.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle active"></label></span>
+                  </div>
+                  <div class="configure_make_options_border check-box-button" id="option15">
+                      <span class="configure_sub_title pull-left"><label>90-VK</label><br><label>Kicksweep at Island</label><br>Price: $<label>250.00</label> </span>
+                      <span class="configure_check_box pull-right"><label class="circle"></label></span>
+                  </div>
+                </div>
+              </div>
+              <div class="pull-left" id="configure_second_div">
+                  <ul class="nav nav-tabs" role="tablist">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#floor_map" role="tab" data-toggle="tab">Floor Plan</a>
+                    </li>
+                    <li class="nav-item ">
+                      <a class="nav-link" href="#upgrade_section" role="tab" data-toggle="tab">Upgrade Selections</a>
+                    </li>
+                  </ul>
+                  <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane fade in active" id="floor_map">
+                        <ul class="nav nav-tabs" role="tablist">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#first_floor" role="tab" data-toggle="tab">1st Floor</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#second_floor" role="tab" data-toggle="tab">2nd Floor</a>
+                            </li>
+                            <li class="nav-item ">
+                                <a class="nav-link" href="#third_floor" role="tab" data-toggle="tab">Basement</a>
+                            </li>
+                        </ul> 
+                        
+                        <div class="pull-right" id="price_show">
+                            Total Price: <span class="price_value pull-right">$0</span>
+                        </div>
+                      
+                      <div class="tab-content">
+                            <div role="tabpanel" class="tab-pane fade in active" id="first_floor">
+                                <div class="image_div">
+                                    <img src="assets/image/Floorplan_1.png" class="floor_image ">
+                                    <img src="assets/image/Fireplace.png" class="floor_image firstplace-image hideimage">
+                                    <img src="assets/image/Study.png" class="floor_image study-image hideimage">
+                                    <img src="assets/image/Overlay1_1a.png" class="floor_image option1-first-image hideimage">
+                                    <img src="assets/image/Overlay1_1b.png" class="floor_image option1-second-image hideimage">
+                                    <img src="assets/image/Overlay1_2.png" class="floor_image option2-image hideimage">
+                                    <img src="assets/image/Overlay1_3.png" class="floor_image option3-image hideimage">
+                                    <img src="assets/image/Overlay1_4.png" class="floor_image option4-image hideimage">
+                                    <img src="assets/image/Overlay1_5.png" class="floor_image option5-image hideimage">
+                                    <img src="assets/image/Overlay1_6.png" class="floor_image option6-image hideimage">
+                                    <img src="assets/image/Overlay1_7.png" class="floor_image option7-image hideimage">
+                                    <img src="assets/image/Overlay1_8a.png" class="floor_image option8-first-image hideimage">
+                                    <img src="assets/image/Overlay1_8b.png" class="floor_image option8-second-image hideimage">
+                                    <img src="assets/image/Overlay1_9a.png" class="floor_image option9-first-image hideimage">
+                                    <img src="assets/image/Overlay1_9b.png" class="floor_image option9-second-image hideimage">
+                                    <img src="assets/image/Overlay1_10.png" class="floor_image option10-image hideimage">
+                                    <img src="assets/image/Overlay1_11.png" class="floor_image option11-image hideimage">
+                                    <img src="assets/image/Overlay1_12.png" class="floor_image option12-image hideimage">
+                                    <img src="assets/image/Overlay1_13.png" class="floor_image option13-image hideimage">
+                                    <img src="assets/image/Overlay1_14.png" class="floor_image option14-image hideimage">
+                                    <img src="assets/image/Overlay1_15.png" class="floor_image option15-image hideimage">
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="second_floor">
+                                <div class="image_div">
+                                    <img src="assets/image/Floorplan_2.png" class="floor_image">
+                                    <img src="assets/image/Overlay2_1a.png" class="floor_image option1-first-image hideimage">
+                                    <img src="assets/image/Overlay2_1b.png" class="floor_image option1-second-image hideimage">
+                                    <img src="assets/image/Overlay2_2.png" class="floor_image option14-image hideimage">
+                                    <!-- <img src="assets/image/Overlay2_3a.png" class="floor_image option8-first-image">
+                                    <img src="assets/image/Overlay2_3b.png" class="floor_image option8-second-image hideimage">
+                                    <img src="assets/image/Overlay2_4a.png" class="floor_image option9-first-image">
+                                    <img src="assets/image/Overlay2_4b.png" class="floor_image option9-second-image hideimage"> -->
+                                </div>
+                            </div>
+                            <div role="tabpanel" class="tab-pane fade" id="third_floor">
+                                <div class="image_div">
+                                    <img src="assets/image/Floorplan_B.png" class="floor_image">
+                                    <img src="assets/image/OverlayB_1a.png" class="floor_image option1-first-image-b hideimage">
+                                    <img src="assets/image/OverlayB_1b.png" class="floor_image option1-second-image-b hideimage">
+                                    <img src="assets/image/OverlayB_2.png" class="floor_image option3-image hideimage">
+                                </div>
+                            </div>
+                      </div>
+
+                      
+                      <!-- <table  border="1" id="floor_map_table" >
+                            <tr>
+                                <td colspan="2" rowspan="3" class="table_campbell_title">Completed for Campbell Homes</td>
+                                <td colspan="2" class="grand_total_value"><span class="pull-left">GRAND TOTAL</span><span class="pull-right">$3,039.00</span></td>
+                            </tr>
+                            <tr>
+                                  <td colspan="2" class="technology_value"><span class="pull-left">Technology</span><span class="pull-right">$6,078.00</span></td>
+                            </tr>
+                            <tr>
+                                  <td colspan="2" class="electrical_value"><span class="pull-left">Electrical</span></td>
+                            </tr>
+                            <tr class="user_info">
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                            </tr>
+                            <tr  class="user_info">
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                            </tr>
+                            <tr  class="user_info">
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                            </tr>
+                            <tr  class="user_info">
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                            </tr>
+                            <tr  class="user_info">
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                                  <td>Electrical</td>
+                            </tr>
+                        </table> -->
+
+                    </div>
+                    <div role="tabpanel" class="tab-pane fade" id="upgrade_section">
+                      <div id="upgrade_section_title">
+                        Upgrade Selection
+                      </div>
+                      <table id="upgrade_selection_table" border='1' class = "change_table">
+                        <tr>
+                          <td>Builder Code</td>
+                          <td>Option Name</td>
+                          <td>Description</td>
+                          <td>Price</td>
+                        </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        <tr>  <td></td> <td></td> <td></td> <td></td> </tr>
+                        
+                        <tr> <td id="value_table_cell" colspan = "5"> <span>Total Cost:</span> <span><label class="price_value">$0</label> </span> </td> </tr>
+                      </table>
+                      <!-- <table  border="1" id="upgrade_result_table">
+                          <tr>
+                              <td colspan="2" rowspan="3" id="table_campbell_title">Completed for Campbell Homes</td>
+                              <td colspan="2" id="grand_total_value"><span class="pull-left">GRAND TOTAL</span><span class="pull-right">$3,039.00</span></td>
+                          </tr>
+                          <tr>
+                                <td colspan="2" id="technology_value"><span class="pull-left">Technology</span><span class="pull-right">$6,078.00</span></td>
+                          </tr>
+                          <tr>
+                                <td colspan="2" id="electrical_value"><span class="pull-left">Electrical</span></td>
+                          </tr>
+                          <tr class="user_info">
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                          </tr>
+                          <tr  class="user_info">
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                          </tr>
+                          <tr  class="user_info">
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                          </tr>
+                          <tr  class="user_info">
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                          </tr>
+                          <tr  class="user_info">
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                                <td>Electrical</td>
+                          </tr>
+                      </table> -->
+                      
+                    </div>
+                  </div>
+              </div>
+            </div>
+                        
+            <div role="tabpanel" class="tab-pane fade" id="legend">
+              <img src="assets/image/adverse.png" id="adverse_img">
+
+              <div id="legend_table_title">
+                Standard
+              </div>
+              <table id="legend_table" border="1">
+                <tr>
+                  <td>Symbol</td>
+                  <td>Count</td>
+                  <td>Description</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/image/Image_25.png"></td>
+                    <td>1</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/image/Image_24.png"></td>
+                    <td>1</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/image/Image_23.png"></td>
+                    <td>1</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/image/Image_22.png"></td>
+                    <td>2</td>
+                    <td>Description</td>
+                </tr>
+                <tr>
+                    <td><img src="assets/image/Image_21.png"></td>
+                    <td>2</td>
+                    <td>Description</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div id="footer">
+            <a href="https://www.hrenow.com" target="_blank"><img src="assets/image/Footer_image.png"></a>
+            <p>&copy; Copyright 2018, HomeRun Electronics, Inc.</p>
+        </div>
+
+      <div id = "pdf_content" >
+            <div id = "first_pdf" >
+           
+                <div class="pdf_header">
+                    <p class="pull-left pdf_header_text"><span class="community_name_pdf"></span> - <span class="property_address_pdf"></span> - <span class="configuration_date_pdf"></span></p>
+
+                    <div class="pull-right pdf_header_buttons">
+                          <div><img src = "assets/image/hometechdoneright.png"></div>
+                    </div>
+                </div>
+                <div class="pdf_main">
+                    <p id="pdf_table_title">
+                        Selection Summary
+                    </p>
+                    <table id="pdf_table" border="1" width = "100%" class = "change_table_pdf">
+                        <tr>
+                            <th>BUILDER CODE</th>
+                            <th>OPTION NAME</th>
+                            <th>DESCRIPTION</th>
+                        </tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr>  <td></td> <td></td> <td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr>  <td></td> <td></td> <td></td></tr>
+                        <tr>  <td></td> <td></td> <td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                        <tr><td></td><td></td><td></td></tr>
+                    </table>
+                </div>
+                <div class="pdf_footer">
+                    <div class="pdf_footer_infos">
+                        <div class="for_company pull-left">
+                            <img src="assets/image/logo.png" class="logopdf">
+                            <p>HomeRun Electronics, Inc.<br>
+                                    6380 Corporate Center Cir, Suite 155<br>
+                                    Colorado Springs, CO 80919<br>
+                                    719-685-0660 888-888-88888</p>
+                        </div>
+                        <div class="home_builder_mark pull-left">
+                          <img src="assets/image/wl_logo.png"></img>
+                            <p class="homebuilder_rep_pdf"></p>
+                            <p class="rep_email_pdf"></p>
+                        </div>
+                       <div class="home_builder_info pull-left">
+                            <p class="homebuilder_name_pdf"></p>
+                            <p class="community_pdf"></p>
+                            <p class="home_model_pdf"></p>
+                        </div>
+                        <div class="client_info pull-left">
+                            <p class="lotblock_pdf"></p>
+                            <p class="property_address_pdf"></p>
+                            <p class="city_st_zip_address"></p>
+                        </div>
+                        <div class="buyer1_info pull-left">
+                            <p class="buyer1_name_pdf"></p>
+                            <p class="buyer1_phone_pdf"></p>
+                            <p class="buyer1_email_pdf"></p>
+                        </div>
+                        <div class="buyer2_info pull-left">
+                            <p class="buyer2_name_pdf"></p>
+                            <p class="buyer2_phone_pdf"></p>
+                            <p class="buyer2_email_pdf"></p>
+                        </div>  
+                    </div>
+                    <div class="pdf_footer_sign">
+                        <div class="pull-left sign_description1">
+                                This completed options list will be included as an
+                                addendum to your new home agreement. Because of the
+                                many options available for telephone, television, and
+                                internet service providers, you are ultimately responsible
+                                for ensuring the cabling you approve within this proposal
+                                will meet your needs. Your approval of this proposal also
+                                implies an acceptance of outlet and device placement
+                                documented on an 8.5" x 11" copy of your floorplan. You
+                                also acknowledge that we will use best efforts to place
+                        </div>
+
+                        <div class="pull-left sign_description2">
+                                devices in those locations, subject to electrical outlet(s)
+                                being located nearby as appropriate, straight studs are
+                                present, that there is room in the stud bay, and no
+                                obstacles exist such as plumbing or air returns. Your
+                                approval also indicates that this proposal fully documents
+                                the understanding of the work to be performed on your
+                                behalf and supersedes any previous written or verbal
+                                communication. Thanks and please feel free to contact us
+                                if you have questions.
+                        </div>
+
+                        <div class="pull-left sign_divs">
+                            <img src="assets/image/signature.png"></img>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div id = "second_pdf">
+                <div class="pdf_header">
+                        <p class="pull-left pdf_header_text"><span class="community_name_pdf"></span> - <span class="property_address_pdf"></span> - <span class="configuration_date_pdf"></span></p>
+
+                    <div class="pull-right pdf_header_buttons">
+                        <div><img src = "assets/image/hometechdoneright.png"></div>
+                    </div>
+                </div>
+                <div class="pdf_main">
+                    <div class="pdf_image_div">
+                        <div class="pull-left text-center">
+                            <img src="assets/image/Floorplan_1.png">
+                            <img src="assets/image/Fireplace.png" class="floor_image firstplace-image hideimage">
+                            <img src="assets/image/DiningRoom.png" class="floor_image diningroom-image hideimage">
+                            <img src="assets/image/Study.png" class="floor_image study-image hideimage">
+                            <img src="assets/image/Overlay1_1a.png" class="floor_image option1-first-image hideimage">
+                            <img src="assets/image/Overlay1_1b.png" class="floor_image option1-second-image hideimage">
+                            <img src="assets/image/Overlay1_2.png" class="floor_image option2-image hideimage">
+                            <img src="assets/image/Overlay1_3.png" class="floor_image option3-image hideimage">
+                            <img src="assets/image/Overlay1_4.png" class="floor_image option4-image hideimage">
+                            <img src="assets/image/Overlay1_5.png" class="floor_image option5-image hideimage">
+                            <img src="assets/image/Overlay1_6.png" class="floor_image option6-image hideimage">
+                            <img src="assets/image/Overlay1_7.png" class="floor_image option7-image hideimage">
+                            <img src="assets/image/Overlay1_8a.png" class="floor_image option8-first-image hideimage">
+                            <img src="assets/image/Overlay1_8b.png" class="floor_image option8-second-image hideimage">
+                            <img src="assets/image/Overlay1_9a.png" class="floor_image option9-first-image hideimage">
+                            <img src="assets/image/Overlay1_9b.png" class="floor_image option9-second-image hideimage">
+                            <img src="assets/image/Overlay1_10.png" class="floor_image option10-image hideimage">
+                            <img src="assets/image/Overlay1_11.png" class="floor_image option11-image hideimage">
+                            <img src="assets/image/Overlay1_12.png" class="floor_image option12-image hideimage">
+                            <img src="assets/image/Overlay1_13.png" class="floor_image option13-image hideimage">
+                            <img src="assets/image/Overlay1_14.png" class="floor_image option14-image hideimage">
+                            <img src="assets/image/Overlay1_15.png" class="floor_image option15-image hideimage"><br>
+                            <p>First Floor</p>
+                        </div>
+                        <div class="pull-left text-center">
+                            <img src="assets/image/Floorplan_2.png">
+                            <img src="assets/image/Overlay2_1a.png" class="floor_image option1-first-image">
+                            <img src="assets/image/Overlay2_1b.png" class="floor_image option1-second-image hideimage"><br>
+                            <!-- <img src="assets/image/Overlay2_3a.png" class="floor_image option8-first-image">
+                                    <img src="assets/image/Overlay2_3b.png" class="floor_image option8-second-image hideimage">
+                                    <img src="assets/image/Overlay2_4a.png" class="floor_image option9-first-image">
+                                    <img src="assets/image/Overlay2_4b.png" class="floor_image option9-second-image hideimage"> -->
+                            <p>Second Floor</p>
+                        </div>
+                        <div class="pull-left text-center">
+                            <img src="assets/image/Floorplan_B.png">
+                            <img src="assets/image/OverlayB_1a.png" class="floor_image option1-first-image">
+                            <img src="assets/image/OverlayB_1b.png" class="floor_image option1-second-image hideimage">
+                            <img src="assets/image/OverlayB_2.png" class="floor_image option3-image hide"><br>
+                            <p>Basement</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="pdf_footer">
+                    <div class="pdf_footer_infos">
+                        <div class="for_company pull-left">
+                            <img src="assets/image/logo.png" class="logopdf">
+                            <p>HomeRun Electronics, Inc.<br>
+                                    6380 Corporate Center Cir, Suite 155<br>
+                                    Colorado Springs, CO 80919<br>
+                                    719-685-0660 888-888-88888</p>
+                        </div>
+                         <div class="home_builder_mark pull-left">
+                          <img src="assets/image/wl_logo.png"></img>
+                            <p class="homebuilder_rep_pdf"></p>
+                            <p class="rep_email_pdf"></p>
+                        </div>
+                       <div class="home_builder_info pull-left">
+                            <p class="homebuilder_name_pdf"></p>
+                            <p class="community_pdf"></p>
+                            <p class="home_model_pdf"></p>
+                        </div>
+                        <div class="client_info pull-left">
+                            <p class="lotblock_pdf"></p>
+                            <p class="property_address_pdf"></p>
+                            <p class="city_st_zip_address"></p>
+                        </div>
+                        <div class="buyer1_info pull-left">
+                            <p class="buyer1_name_pdf"></p>
+                            <p class="buyer1_phone_pdf"></p>
+                            <p class="buyer1_email_pdf"></p>
+                        </div>
+                        <div class="buyer2_info pull-left">
+                            <p class="buyer2_name_pdf"></p>
+                            <p class="buyer2_phone_pdf"></p>
+                            <p class="buyer2_email_pdf"></p>
+                        </div>  
+                    </div>
+                    <div class="pdf_footer_sign">
+                        <div class="pull-left sign_description">
+                                <span class="additional_note_title">Additional Note</span>
+                                <p class = "additional_note"></p>
+                                <span>This floor plan is for illustration purposes only. Location of low voltage
+                                        items may change due to unforeseen construction obstacles.</span>
+                        </div>
+
+                        <div class="pull-right sign_divs">
+                           
+                            <img src="assets/image/signature.png"></img>
+         
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+
+            <div id = "third_pdf">
+                <div class="pdf_header">
+                        <p class="pull-left pdf_header_text"><span class="community_name_pdf"></span> - <span class="property_address_pdf"></span> - <span class="configuration_date_pdf"></span></p>
+
+                    <div class="pull-right pdf_header_buttons">
+                        <div><img src = "assets/image/hometechdoneright.png"></div>
+                    </div>
+                </div>
+                <div class="pdf_main">
+                    <p id="pdf_table_title">
+                        Legend
+                    </p>
+                    <div class="legendpdf">
+                    <img src = "assets/image/adverse.png">
+                  </div>
+                </div>
+                <div class="pdf_footer">
+                    <div class="pdf_footer_infos">
+                        <div class="for_company pull-left">
+                            <img src="assets/image/logo.png" class="logopdf">
+                            <p>HomeRun Electronics, Inc.<br>
+                                    6380 Corporate Center Cir, Suite 155<br>
+                                    Colorado Springs, CO 80919<br>
+                                    719-685-0660 888-888-88888</p>
+                        </div>
+                        <div class="home_builder_mark pull-left">
+                          <img src="assets/image/wl_logo.png"></img>
+                            <p class="homebuilder_rep_pdf"></p>
+                            <p class="rep_email_pdf"></p>
+                        </div>
+                       <div class="home_builder_info pull-left">
+                            <p class="homebuilder_name_pdf"></p>
+                            <p class="community_pdf"></p>
+                            <p class="home_model_pdf"></p>
+                        </div>
+                        <div class="client_info pull-left">
+                            <p class="lotblock_pdf"></p>
+                            <p class="property_address_pdf"></p>
+                            <p class="city_st_zip_address"></p>
+                        </div>
+                        <div class="buyer1_info pull-left">
+                            <p class="buyer1_name_pdf"></p>
+                            <p class="buyer1_phone_pdf"></p>
+                            <p class="buyer1_email_pdf"></p>
+                        </div>
+                        <div class="buyer2_info pull-left">
+                            <p class="buyer2_name_pdf"></p>
+                            <p class="buyer2_phone_pdf"></p>
+                            <p class="buyer2_email_pdf"></p>
+                        </div>  
+                    </div>
+                    <div class="pdf_footer_sign">
+                        <div class="pull-left sign_description">
+                        
+                            <p class="footer_text">This floor plan is for illustration purposes only. Location of low voltage
+                                items may change due to unforeseen construction obstacles.</p>
+                        </div>
+
+                        <div class="pull-right sign_divs">
+                              <img src="assets/image/signature.png"></img>
+                        </div>
+                        
+
+                    </div>
+                </div>
+            </div>
+
+              
+      </div>
+    </body>
+
+     <script>
+      function openNav() {
+       document.getElementById("myNav").style.height = "100%";
+       document.getElementById("myNav").style.opacity = "1";
+      }
+
+      function closeNav() {
+        document.getElementById("myNav").style.height = "0%";
+        document.getElementById("myNav").style.opacity = "0";
+      }
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.min.js"></script>
+    <script src="assets/js/print.js"></script>
+    <script src="assets/js/app.js"></script>
+    <script src="assets/js/form.js"></script>
+    
+
+</html>

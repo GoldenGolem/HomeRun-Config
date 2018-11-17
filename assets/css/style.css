@@ -1,0 +1,1098 @@
+body {
+    -webkit-print-color-adjust: exact !important;
+  }
+
+  .logopdf {
+    width:275px;
+  }
+
+#content{
+    width: 1140px;
+    margin: auto;
+    font-family: "Muli";
+    
+}
+
+#header{
+    overflow: auto;
+    margin-top: 67px;
+}
+
+#header #logo_div{
+    margin-bottom: 46px;
+}
+
+#header #logo_div img{
+    width:240px;
+}
+
+#header #logo_div p{
+    text-align: right;
+    color: #000000;
+    font-family: "Helvetica Neue";
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#header #logo_div a{
+    color: #418bca;
+}
+
+#header #title_div{
+    font-family: "Muli";
+    font-size: 29px;
+    font-weight: 400;
+}
+
+#header #title_div span:nth-child(1){
+    color: #313131;
+}
+#header #title_div span:nth-child(2){
+    color: #d57a27;
+    cursor:pointer;
+}
+#header #title_div span:nth-child(3){
+    color: #d57a27;
+    vertical-align: text-bottom;
+    cursor:pointer;
+}
+#header #button_div button:nth-child(1){
+    
+    border: 1px solid #739b9f;
+    background-color: transparent;
+    width: 146px;
+    height: 39px;
+    color: #739b9f;
+    font-family: "Helvetica Neue";
+    font-size: 17px;
+    font-weight: 400;
+}
+
+#header #button_div button:nth-child(2){
+    border: 0;
+    background-color: #739b9f;
+    width: 146px;
+    height: 39px;
+}
+
+
+#main{
+    margin-top: 26px;
+}
+
+#main .nav-item{
+    width: 33.33%;
+}
+#main .nav-item .nav-link{
+    text-align: center;
+    height: 60px;
+    background-color: #e5e5e5;
+    border: 0px;
+    color: #707070;
+    font-family: "Muli";
+    font-size: 17px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+    border-radius: 0;
+    padding-top: 20px;
+}
+#main .nav-item.active .nav-link{
+    text-align: center;
+    height: 60px;
+    background-color: #ffffff;
+    border-top: 4px solid #beb432;
+}
+
+#main #customer_details{
+    margin-top: 32px;
+    overflow: auto;
+}
+
+#main #customer_details #customer_detail_table_div{
+    width: 601px;
+    float: left;
+    
+}
+#main #customer_details #customer_detail_description_div{
+    float:right;
+    text-align: center;
+    width: 500px;
+    padding-top: 25px;
+}
+
+#main #customer_details #customer_detail_description_div #description__big_title{
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #333333;
+}
+
+#main #customer_details #customer_detail_description_div #description_small_title{
+    color: #d57a27;
+    font-family: Muli;
+    font-size: 20px;
+    margin-top: 33px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#main #customer_details #customer_detail_description_div #description_description{
+    color: #333333;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    margin-top: 37px;
+    line-height: 22px;
+    text-align: left;
+}
+
+#main #customer_details #customer_detail_description_div #description_another_title{
+    color: #707070;
+    font-family: Muli;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+#main #customer_details #customer_detail_description_div #description_another_description{
+    olor: #333333;
+    font-family: Roboto;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-top: 50px;
+}
+
+#main #customer_details #customer_detail_description_div #description_another_description a{
+    color: #739b9f;
+}
+
+#main #customer_details .tab_custom_big_title{
+    width: 601px;
+    height: 55px;
+    background-color: #989898;
+    color: #ffffff;
+    font-family: "Muli";
+    font-size: 22px;
+    font-weight: 500;
+    padding-left: 23px;
+    padding-top: 13px;
+    margin-bottom: 23px;
+}
+
+#main #customer_details .tab_custom_big_title2{
+    color: #739B9F;
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 23px;
+    padding-top: 0px;
+    margin-bottom: 23px;
+}
+
+#main #customer_details .tab_custom_small_title{
+    color: #707070;
+    font-family: "Muli";
+    font-size: 13px;
+    font-weight: 400;
+    margin-left: 24px;
+    margin-top: 9px;
+    width: 90px;
+    margin-right: 80px;
+}
+
+
+
+#main #customer_details .tab_custom_input{
+    width: 601px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+}
+#main #customer_details .tab_custom_small_input{
+    width:  190px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+    margin-right: 10px;
+}
+
+#main #tab_custom_div #requied_text{
+    color: #a8a8a8;
+    font-family: "Helvetica Neue";
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+#main #tab_custom_div #text_area_label{
+    color: #707070;
+    font-family: "Helvetica Neue";
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 35px;
+    
+}
+
+#main #text-area{
+    width: 601px;
+    height: 297px;
+    margin-top: 33px;
+}
+
+#main #customer_details #tab_custom_div{
+    margin-top: 79px;
+}
+#main #configure{
+    overflow: -webkit-paged-x;
+    cursor:pointer;
+
+}
+
+.std {
+    margin-top:10px;
+}
+
+#main #configure #configure_first_div{
+    width: 312px;
+    margin-top: 19px;
+    z-index: 999;
+    
+}
+
+#main #configure #configure_second_div{
+    width: 796px;
+    margin-left: 22px;
+    margin-top: 22px;
+}
+
+#main #configure #configure_second_div ul{
+    z-index: 999;
+}
+
+#main #configure #configure_second_div #price_show{
+    font-size: 30px;
+    width: 300px;
+    border: 1px solid #739b9f;
+    padding: 18px 23px 23px 23px;
+    margin-top: -80px;
+    height: 68px;
+    padding-top: 25px;
+    color: #739b9f;
+    font-family: Muli;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 15px;
+    z-index: 9999;
+}
+
+#main #configure .configure_make_border{
+    border-bottom: 2px solid #d3b293;
+    overflow: auto;
+    padding-bottom: 15px;
+
+}
+#main #configure .configure_make_light_border{
+    border-bottom: 1px solid #d3b293;
+    overflow: auto;
+    padding-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+#main #configure .configure_make_light_border:hover{
+    cursor: pointer;
+}
+#main #configure .configure_make_options_border{
+    border-bottom: 1px solid #d3b293;
+    overflow: auto;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    width: 100%;
+    background-color: #f8f1dd;
+}
+#main #configure .configure_make_options_border:hover{
+   background-color: #d6d6d6;
+   border-left: 3px solid #d57a27;
+   cursor: pointer;
+}
+
+
+
+
+#main #configure .configure_main_title{
+    color: #333333;
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+#main #configure .configure_title{
+    color: #333333;
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 16px;
+    margin-left: 15px;
+}
+
+#main #configure .configure_sub_title{
+    color: #333333;
+    font-family: "Muli";
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14px;
+    margin-left: 28px;
+}
+
+#main #configure .configure_check_box{
+    color: #d57a27;
+    font-family: "Muli";
+    font-size: 30px;
+    font-weight: 700;
+    margin-right: 12px;
+    line-height: 0.5;
+    padding-top: 1px;   
+}
+#main #configure .configure_sub_title label:nth-child(1){
+    line-height: 1;
+    font-size: 14px;
+    margin-top: 5px;
+    
+}
+#main #configure .configure_sub_title label:nth-child(3){
+    font-weight: 400;
+    
+}
+
+#main #configure #configure_second_div .nav-tabs{
+    border: 0;
+    margin-left: 15px;
+}
+
+#main #configure #configure_second_div .nav-item{
+    width: auto;
+    margin-right: 41px;
+}
+
+#main #configure #configure_second_div .nav-link{
+    background-color: transparent;
+    border: 0;
+    padding: 0;
+    padding-bottom: 11px;
+    color: #707070;
+    font-family: "Muli";
+    font-size: 16px;
+    font-weight: 300;
+    height: auto;
+}
+
+#main #configure #configure_second_div .nav-item.active .nav-link{
+    border-bottom: 3px solid #739b9f;
+    color: #739b9f;
+    font-weight: 500;
+}
+
+#main #configure #configure_second_div .tab-content{
+    margin-top: 15px;
+}
+
+#main #configure #configure_second_div #floor_map{
+    
+}
+
+#main #configure #configure_second_div #floor_map .nav-link{
+    float: left;
+    margin-right: 37px;
+    color: #333333;
+    font-family: "Muli";
+    font-size: 14px;
+    font-weight: 300;
+    border: 0;
+}
+
+#main #configure #configure_second_div #floor_map .active .nav-link{
+    float: left;
+    margin-right: 37px;
+    font-weight: 500;
+    color: #d57a27;
+}
+
+#main #configure #configure_second_div #floor_map .image_div{
+    margin-left: 0px;
+    margin-bottom: 192px;
+    height: 880px;
+
+}
+
+#main #configure #configure_second_div #floor_map .image_div img{
+    width: 780px;
+    height: 880px;
+    position: absolute;
+    z-index: 9999;
+}
+
+#main #configure #configure_second_div #floor_map .image_div img.hideimage{
+    display: none;
+}
+
+#main #configure #configure_second_div #floor_map #input_div{
+    overflow: auto;
+    margin-top: 149px;
+    border: 1px solid #707070;
+    padding: 28px 34px 39px 30px;
+}
+
+#main #configure #configure_second_div #floor_map #input_div div:nth-child(1){
+    margin-right: 10px;
+}
+
+
+#main #configure #configure_second_div #floor_map #input_div .tab_configure_input_title{
+    color: #707070;
+    font-family: "Muli";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#main #configure #configure_second_div #floor_map #input_div .tab_configure_input{
+    width: 345px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+}
+
+#main #configure #configure_second_div #floor_map #input_div .tab_configure_input_small_title{
+    color: #707070;
+    font-family: "Muli";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#main #configure #configure_second_div #floor_map #input_div .tab_configure_input_small_title:nth-child(2){
+    margin-left: 100px;
+}
+
+#main #configure #configure_second_div #floor_map #input_div .tab_configure_small_input{
+    width: 165px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+}
+#main #configure #configure_second_div #floor_map #input_div .tab_configure_small_input.next{
+    margin-left: 11px;
+}
+
+#main #configure #configure_second_div #floor_map #floor_map_table{
+    width: 100%;
+}
+
+#main #configure #configure_second_div #floor_map #floor_map_table td{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 9px;
+    padding-left: 9px;
+    height: 22px;
+
+}
+
+#main #configure #configure_second_div #floor_map #floor_map_table .table_campbell_title{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#main #configure #configure_second_div #floor_map #floor_map_table .grand_total_value{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #bfb432;
+    height: 37px;
+}
+#main #configure #configure_second_div #floor_map #floor_map_table .technology_value{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #e2e1a5;
+    height: 25px;
+}
+#main #configure #configure_second_div #floor_map #floor_map_table .electrical_value{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #e2e1a5;
+}
+
+#main #configure #configure_second_div #upgrade_section{
+    height: 55px;
+    margin-left: 15px;
+    
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_section_title{
+    height: 55px;
+    margin-top: 27px;
+    padding-top: 15px;
+    padding-left: 24px;
+    color: #ffffff;
+    font-family: "Muli";
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #d57a27;
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_selection_table{
+    width: 100%;
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_selection_table td{
+    height: 46px;
+    text-align: center;
+    color: #707070;
+    font-family: "Muli";
+    font-size: 14px;
+    font-weight: 400;
+    border: 1px solid #a0a0a0;
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_result_table{
+    width: 100%;
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_result_table td{
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+    padding-left: 9px;
+    padding-left: 9px;
+    height: 22px;
+
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_result_table #table_campbell_title{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+}
+
+#main #configure #configure_second_div #upgrade_section #upgrade_result_table #grand_total_value{
+    color: #333333;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #bfb432;
+    height: 37px;
+}
+#main #configure #configure_second_div #upgrade_section #upgrade_result_table #technology_value{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #e2e1a5;
+    height: 25px;
+}
+#main #configure #configure_second_div #upgrade_section #upgrade_result_table #electrical_value{
+    color: #333333;
+    font-size: 15px;
+    font-weight: 500;
+    background-color: #e2e1a5;
+}
+
+#main #configure #configure_second_div #upgrade_section  #value_table_cell{
+    height: 71px;
+    border: 1px solid #a0a0a0;
+    border-top: 0;  
+    text-align: right !important;
+    padding-top: 15px;
+    padding-right: 32px;
+}
+
+#main #configure #configure_second_div #upgrade_section  #value_table_cell span:nth-child(1){
+    color: #707070;
+    font-family: "Muli";
+    font-size: 18px;
+    font-weight: 300;
+}
+
+#main #configure #configure_second_div #upgrade_section  #value_table_cell span:nth-child(2){
+    padding-left: 52px;
+    color: #707070;
+    font-family: "Muli";
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div{
+    overflow: auto;
+    border: 1px solid #707070;
+    border-top: 0px;
+    padding: 28px 34px 39px 30px;
+}
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div div:nth-child(1){
+    margin-right: 10px;
+}
+
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div .tab_configure_input_title{
+    color: #707070;
+    font-family: "Muli";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div .tab_configure_input{
+    width: 345px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+}
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div .tab_configure_input_small_title{
+    color: #707070;
+    font-family: "Muli";
+    font-size: 13px;
+    font-weight: 400;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div .tab_configure_input_small_title:nth-child(2){
+    margin-left: 100px;
+}
+
+#main #configure #configure_second_div #upgrade_section #configure_input_div .tab_configure_small_input{
+    width: 165px;
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 1px solid #707070;
+}
+#main #configure #configure_second_div #upgrade_section #configure_input_div .tab_configure_small_input.next{
+    margin-left: 11px;
+}
+
+#main #legend #adverse_img{
+    margin-left: 7px;
+    margin-top: 35px;
+    width: 100%;
+}
+
+#main #legend #legend_table_title{
+    background-color: #d57a27;
+    width: 280px;
+    height: 40px;
+    margin-left: 12px;
+    margin-top: 14px;
+    padding-left: 15px;
+    padding-top: 8px;
+    color: #ffffff;
+    font-family: "Muli";
+    font-size: 16px;
+    font-weight: 500;
+}
+#main #legend #legend_table{
+    width: 280px;
+    text-align: center;
+    margin-left: 12px;
+    border: 1px solid #a0a0a0;
+    
+}
+
+.circle{
+    background-color: #ffffff;
+    border: 5px solid #FFF;
+    border-radius: 18px;
+    box-shadow: 0 0 3px #d57a27;
+    height: 28px;
+    width: 28px;
+}
+
+.bold {
+    font-color:#ffffff;
+}
+
+#main #configure .configure_make_options_border.active .circle{
+    background-color: #d57a27;
+}
+
+#main #configure .configure_make_light_border .circle{
+    background-color: #d57a27;
+}
+.expand_active .circle{
+    margin-top: 18px;
+}
+
+.expand_inactive .circle{
+    margin-top: 18px;
+}
+
+.square{
+    font-size: 16px;
+    padding: 7px;
+    border-radius: 5px;
+    border: 2px solid #d57a27;
+}
+
+#main #configure .expand_inactive{
+    display: none;
+}
+#main #configure .expand_active{
+    display: block;
+}
+
+#footer{
+    width: 100%;
+    position:absolute;
+    height: 305px;
+    text-align: center;
+    background-color: #313030;
+    margin-top: 28px;
+    color: #bcbcbc;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+}
+
+#footer img{
+    margin-top: 74px;
+}
+#footer p{
+    margin-top: 40px;
+}
+
+
+#pdf_content{
+    
+    width: 29.21cm;
+    height: 21.59cm;
+    margin: auto;
+    display: none;
+}
+
+.pdf_header{
+    overflow: auto;
+}
+
+.pdf_header_text {
+    font-size:22px;
+    font-weight:800;
+}
+
+#first_pdf,#second_pdf,#third_pdf{
+    width: 26cm;
+    margin: auto;
+    padding-top: 30px;
+    margin-bottom: 70px;
+}
+#second_pdf, #third_pdf{
+    padding-top: 60px;
+}
+
+#pdf_content .pdf_header_buttons button{
+    color: green !important;
+    width: 180px;
+    border: 0;
+
+    height: 56px;
+}
+
+#pdf_content .pdf_header_buttons img{
+
+    color: green !important;
+    width: 180px;
+    border: 0;
+
+    height: 56px;
+}
+
+#pdf_content .pdf_header_buttons div:nth-child(2) button{
+    margin-left: 90px;
+}
+
+#pdf_content .pdf_header_buttons div:nth-child(2) img{
+    margin-left: 90px;
+}
+
+#first_pdf #pdf_table tr th:nth-child(1){
+    width: 15%;
+}
+#first_pdf #pdf_table tr th:nth-child(2){
+    width: 20%;
+}
+#first_pdf #pdf_table tr th:nth-child(3){
+    width: 65%;
+}
+#first_pdf #pdf_table tbody tr{
+    height: 20px;
+}
+
+#pdf_content .pdf_footer{
+    margin-top: 40px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos{
+    overflow: auto;
+    font-size: 10px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos div{
+    height: 111px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos .for_company{
+    border-right: 1px solid black;
+    padding-right: 10px;
+    font-size: 10px;
+}
+#pdf_content .pdf_footer .pdf_footer_infos .for_company p{
+    
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos .home_builder_mark{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    margin-left: 10px;
+    line-height:14px;
+
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos .home_builder_mark img{
+    width: 150px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos img{
+    width: 150px;
+    margin-bottom:10px;
+}
+
+
+#pdf_content .pdf_footer .pdf_footer_infos .home_builder_info{
+    border-right: 1px solid black;
+    padding-right: 20px;
+    margin-left: 10px;
+    line-height:14px;
+    padding-top: 25px;
+}
+#pdf_content .pdf_footer .pdf_footer_infos .client_info{
+    margin-left: 10px;
+    line-height:14px;
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos .buyer1_info{
+    margin-left: 10px;
+    line-height:14px;
+    border-right: 1px solid black;
+    padding-right: 20px;
+    padding-top: 25px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_infos .buyer2_info{
+    margin-left: 10px;
+    line-height:14px;
+    padding-top: 25px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign{
+    overflow: auto;
+    margin-top: 0px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign .sign_description1{
+    width: 300px;
+    margin-right: 30px;
+    margin-top:30px;
+    font-size: 9px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign .sign_description2{
+    width: 300px;
+    margin-right: 30px;
+    margin-top:30px;
+    font-size: 9px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign .sign_divs{
+    border: 1px solid black;
+    height: 115px;
+    margin-top: 15px;
+    margin-left: 1px;
+    width: 320px;
+    overflow: auto;
+    font-size: 9px;
+    padding-top: 10px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign .sign_divs img{
+
+    height: 100px;
+    width: 300px;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign .sign_divs div:nth-child(1){
+    width: 180px;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-left: 10px;
+    border-top: 1px solid blue;
+}
+
+#pdf_content .pdf_footer .pdf_footer_sign .sign_divs div:nth-child(2){
+    width: 100px;
+    padding-left: 10px;
+    border-top: 1px solid blue;
+}
+#pdf_content #second_pdf .pdf_image_div{
+    overflow: auto;
+    
+    
+}
+
+#pdf_content #second_pdf .pdf_image_div div{
+    position: relative;
+    width: 300px;
+    height: 450px;
+}
+
+#pdf_content #second_pdf .pdf_image_div div img{
+    width: 300px;
+    height: 420px;
+    position: absolute;
+    left: 0px;
+}
+
+#pdf_content #second_pdf .pdf_image_div div img.hideimage{
+    display: none;
+}
+
+#pdf_content #second_pdf .pdf_image_div div p{
+    margin-top: 400px;
+    color: orange !important;
+}
+
+#pdf_content #second_pdf .pdf_image_div div:nth-child(1){
+    margin-right: 37px;
+}
+#pdf_content #second_pdf .pdf_image_div div:nth-child(2){
+    margin-right: 37px;
+}
+
+#pdf_content .pdf_footer_sign .sign_description{
+    font-size: 11px;
+    margin-top: 0px;
+    font-style: italic;
+}
+
+#pdf_content .pdf_footer_sign .sign_description .footer_text{
+    margin-top: 130px;
+}
+#pdf_content .pdf_footer_sign .sign_description .additional_note_title{
+    font-style: normal;
+}
+#pdf_content .pdf_footer_sign .sign_description .additional_note{
+    border: 1px solid black;
+    height: 115px;
+}
+#pdf_content .pdf_main #pdf_image_title{
+    font-size: 20px;
+}
+#pdf_content .pdf_main img{
+    width: 100%;
+    height: 420px;
+}
+
+#pdf_content .pdf_main .legendpdf img{
+    margin-left:60px;
+    width: 100%;
+    text-align:center;
+    width:800px;
+    height:400px;
+}
+
+#pdf_content .pdf_main #pdf_table_title{
+    font-size: 20px;
+    color: #739BA5 !important;
+}
+
+#pdf_content #pdf_table th{
+    background-color:  #739BA5 !important;
+    color: white !important;
+    padding-left: 5px;
+}
+
+/* OVERLAY NAV */
+
+.overlay {
+    height: 0%;
+    opacity:0;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(255,255,255);
+    background-color: rgba(255,255,255, 1);
+    overflow-y: hidden;
+    transition: 0.3s;
+}
+
+.overlay-content {
+    position: relative;
+    top: 15%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #D57A27;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+    color: #FFB426;
+}
+
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: auto;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
+
+.fixed {
+  position:fixed;
+  top:0;
+  z-index:99999;
+}
+@media print {
+  @page { margin: 0; }
+  body { margin: 1.6cm; }
+}
